@@ -88,7 +88,7 @@ def bond(x2, y2):
             ioncharge(y2, x2)
         
     else:
-        print("I can't find any bonds in these atoms ¯\(°_°)/¯")
+        print("I can't find any bonds in these atoms.")
         begin()
         
 def covcharge(c):
