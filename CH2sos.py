@@ -1,8 +1,10 @@
 #############################################
-#Atom electron bonds program for Hbio 2019  #
+#Atom electron program for Hbio 2019        #
 #Author: Nick Lee                           #
 #Date of creation: 11/2/19                  #
 #===========================================#
+#Instructions for use:                      #
+#
 
 import elements
 from time import sleep
@@ -23,6 +25,7 @@ def begin():
         sleep(1)
         pgebreak()
         print("Goodbye!")
+        return('')
     else:
         print("Try again backaroo.")
         begin()
@@ -103,6 +106,7 @@ def body():
         bond(elecone, electwo)
 
         begin()
+        
 begin()
 
 
