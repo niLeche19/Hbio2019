@@ -80,7 +80,7 @@ def bond(x2, y2):
         
     elif (x + y) == 8:
         print("These elements can form an ionic bond.")
-        sleep(1)
+        #sleep(1)
         pgebreak()
         if (x - 8) < (y - 8):
             ioncharge(x2, y2)
@@ -117,7 +117,7 @@ def start():
         start()
 
     if elecone == 0 and electwo == 0:
-        sleep(1)
+        #sleep(1)
         pgebreak()
         print("These two atoms form a covalent bond to make H2.")
         begin()
@@ -132,11 +132,11 @@ def body():
     pgebreak()
     if elecone > 107 or electwo > 107:
         print("One of your atoms has an impossible number of electrons!")
-        sleep(1)
+        #sleep(1)
         begin()
     else:
         print("Atom number one is " + elist[elecone][0] + " and atom number two is " + elist[electwo][0] + ".")
-        sleep(1)
+        #sleep(1)
         bond(elecone, electwo)
 
         begin()
