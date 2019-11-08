@@ -57,7 +57,7 @@ def begin():
     if verdict == "c":
          start()
     elif str(verdict) == "q":
-        sleep(1)
+        #sleep(1)
         print(" ")
         print("Goodbye!")
     else:
@@ -74,7 +74,7 @@ def bond(x2, y2):
 
     if x == y and (x + y) >= 8:
         print("These atoms can form a covalent bond.")
-        sleep(1)
+        #sleep(1)
         pgebreak()
         covcharge(x - 8)
         
